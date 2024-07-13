@@ -1,10 +1,10 @@
-import { NavBar } from "./components/index";
+import { NavBar, Hero } from "./components/index";
 
 const App = () =>(
  <main className="relative">
     <NavBar/>
   <section className="xl:padding-1 wide:padding-r padding-b">
-    Hero
+    <Hero/>
   </section>
   <section className="padding">
     Products
