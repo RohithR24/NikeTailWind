@@ -11,7 +11,7 @@ const NavBar = () => {
         </a>
           <ul className=" flex justify-between items-center gap-16  max-lg:hidden">
             {navLinks.map((item) => (
-              <li key={item.label} className="font-montserrat leading-normal text-lg text-slate-gray">{item.label}</li>
+              <li key={item.label} className="font-montserrat leading-normal text-lg text-slate-600">{item.label}</li>
             ))}
           </ul>
           <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
