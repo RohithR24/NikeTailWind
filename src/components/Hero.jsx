@@ -1,6 +1,7 @@
 import React from 'react'
-import {Button} from './index'
+import {Button, Statistics} from './index'
 import { arrowRight } from '../assets/icons';
+import {statistics} from "../constants/index";
 
 const Hero = () => {
   return (
@@ -18,6 +19,8 @@ const Hero = () => {
 
             <p className='pb-10 pt-8 text-xl font-montserrat text-slate-600'>Discover stylish Nike arrivals, quality <br/> comfort, and innovation for your active life.</p>
             <Button className="" title="Show now" imgURL ={arrowRight}/>
+
+            <Statistics/>
         </div>
     </section>
   )
