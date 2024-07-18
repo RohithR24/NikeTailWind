@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Statistics } from "./index";
 import { arrowRight } from "../assets/icons";
 import { bigShoe1 } from "../assets/images";
+import {shoes} from '../constants/index';
 
 const Hero = () => {
   return (
@@ -36,6 +37,15 @@ const Hero = () => {
             height={502}
             className="object-contain relative z-10"
           />
+
+          {
+            shoes.map((item, index) => (
+              <div key={index} className="">
+                  <img src={item.bigShoe} alt='Shoe' height={5000} width={5000} />
+              </div>
+            ))
+          }
+
         </div>
     </section>
   );
