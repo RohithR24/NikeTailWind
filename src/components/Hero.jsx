@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Statistics,ShoeCard } from "./index";
+import { Button, Statistics, ShoeCard } from "./index";
 import { arrowRight } from "../assets/icons";
 import { bigShoe1 } from "../assets/images";
 import { shoes } from "../constants/index";
@@ -41,10 +41,15 @@ const Hero = () => {
           height={502}
           className="object-contain relative z-10"
         />
-        <div className='absolute flex gap-4 -bottom-[5%]' >
-          
+        <div className="absolute flex gap-4 -bottom-[5%]">
           {shoes.map((item, index) => (
-            <ShoeCard key={index} ImgURL={item.bigShoe} setDisplayShoe={setDisplayShoe} />
+            <ShoeCard
+              key={index}
+              ImgURL={item.bigShoe}
+              //changeBigShoeImage={(shoe) => setDisplayShoe(shoe)}
+              displayShoe= {displayShoe}
+              setDisplayShoe={setDisplayShoe}
+            />
           ))}
         </div>
       </div>
