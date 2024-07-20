@@ -1,4 +1,4 @@
-import { NavBar, Hero } from "./components/index";
+import { NavBar, Hero, PopularProducts } from "./components/index";
 
 const App = () =>(
  <main className="relative">
@@ -7,7 +7,7 @@ const App = () =>(
     <Hero/>
   </section>
   <section className="padding">
-    Products
+    <PopularProducts/>
   </section>
   <section className="padding">
     quality
