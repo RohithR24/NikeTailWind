@@ -46,7 +46,6 @@ const Hero = () => {
             <ShoeCard
               key={index}
               ImgURL={item.bigShoe}
-              //changeBigShoeImage={(shoe) => setDisplayShoe(shoe)}
               displayShoe= {displayShoe}
               setDisplayShoe={setDisplayShoe}
             />
