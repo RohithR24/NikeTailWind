@@ -8,11 +8,11 @@ const PopularProducts = () => {
       <h2 className="text-4xl font-semibold pb-6">
         Our <span className="text-coral-red"> Popular </span> Products{" "}
       </h2>
-      <p className="text-xl text-md font-montserrat text-slate-600">
+      <p className="text-lg text-md font-montserrat text-slate-600">
         Experience top-notch quality and style with our sought-after <br />{" "}
         selections. Discover a world of comfort, design, and value
       </p>
-      <div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 padding-y">
+      <div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 ">
         {products.map((item, index) => (
           <div
             className="flex flex-col justify-center leading-relaxed items-start font-montserrat text-2xl font-medium"

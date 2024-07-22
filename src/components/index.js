@@ -4,4 +4,6 @@ import Button from "./Button";
 import Statistics from "./Statistics";
 import ShoeCard from "./ShoeCard";
 import PopularProducts from "./PopularProducts";
-export { NavBar, Hero, Button, Statistics, ShoeCard, PopularProducts };
+import ProductFeatures from './ProductFeatures';
+
+export { NavBar, Hero, Button, Statistics, ShoeCard, PopularProducts, ProductFeatures };

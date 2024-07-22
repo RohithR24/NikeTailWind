@@ -12,7 +12,7 @@ const Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="pb-8 text-coral-red text-xl font-montserrat">
+        <p className="pb-8 text-coral-red text-lg font-montserrat">
           Our Summer collections
         </p>
 
@@ -24,7 +24,7 @@ const Hero = () => {
           <span className=" text-coral-red">Nike</span> Shoes
         </h1>
 
-        <p className="pb-10 pt-8 text-xl font-montserrat text-slate-600">
+        <p className="pb-10 pt-8 text-lg font-montserrat text-slate-600">
           Discover stylish Nike arrivals, quality <br /> comfort, and innovation
           for your active life.
         </p>
