@@ -3,6 +3,7 @@ import {
   Hero,
   PopularProducts,
   ProductFeatures,
+  Services
 } from "./components/index";
 
 const App = () => (
@@ -17,7 +18,9 @@ const App = () => (
     <section className="padding">
       <ProductFeatures />
     </section>
-    <section className="padding-x py-10">Services</section>
+    <section className="padding-x py-10">
+      <Services />
+    </section>
     <section className="padding">Special Offers</section>
     <section className="padding bg-blue-200">Customer Reviews</section>
     <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
