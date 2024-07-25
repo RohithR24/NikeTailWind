@@ -1,13 +1,13 @@
-import React from "react";
-import { services } from "../constants/index";
-import { ServicesCard } from "../components/index";
+import { services } from "../constants";
+import ServiceCard from "../components/ServiceCard";
+
 const Services = () => {
   return (
-    <section>
-      {services.map((item, index) => (
-        // 
-        <img src={item.imgURL} alt={item.label} width={24} height={24} />
-
+    <section className="max-container flex justify-center flex-wrap gap-9">
+      {services.map((service, index) => (
+        <div className="">
+          <ServiceCard key={index} {...service} />
+        </div>
       ))}
     </section>
   );

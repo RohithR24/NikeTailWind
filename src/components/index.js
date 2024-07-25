@@ -6,7 +6,7 @@ import ShoeCard from "./ShoeCard";
 import PopularProducts from "./PopularProducts";
 import ProductFeatures from "./ProductFeatures";
 import Services from "./Services";
-import ServicesCard from "./ServicesCard";
+import  ServiceCard  from './ServiceCard';
 
 export {
   NavBar,
@@ -17,5 +17,5 @@ export {
   PopularProducts,
   ProductFeatures,
   Services,
-  ServicesCard
+  ServiceCard
 };
