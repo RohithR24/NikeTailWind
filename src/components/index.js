@@ -8,6 +8,7 @@ import ProductFeatures from "./ProductFeatures";
 import Services from "./Services";
 import  ServiceCard  from './ServiceCard';
 import Offers from "./Offers";
+import CustomerReview from "./CustomerReview";
 export {
   NavBar,
   Hero,
@@ -18,5 +19,6 @@ export {
   ProductFeatures,
   Services,
   ServiceCard, 
-  Offers
+  Offers,
+  CustomerReview
 };

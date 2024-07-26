@@ -5,6 +5,7 @@ import {
   ProductFeatures,
   Services,
   Offers,
+  CustomerReview
 } from "./components/index";
 
 const App = () => (
@@ -25,7 +26,9 @@ const App = () => (
     <section className="padding">
       <Offers />
     </section>
-    <section className="padding bg-blue-200">Customer Reviews</section>
+    <section className="padding bg-blue-200">
+      <CustomerReview />
+    </section>
     <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
     <section className="padding-x padding-t pb-8 bg-black">Footer</section>
   </main>
