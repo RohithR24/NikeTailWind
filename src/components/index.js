@@ -9,6 +9,7 @@ import Services from "./Services";
 import  ServiceCard  from './ServiceCard';
 import Offers from "./Offers";
 import CustomerReview from "./CustomerReview";
+import Subscribe from "./Subscribe";
 export {
   NavBar,
   Hero,
@@ -20,5 +21,6 @@ export {
   Services,
   ServiceCard, 
   Offers,
-  CustomerReview
+  CustomerReview,
+  Subscribe
 };
