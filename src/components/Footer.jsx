@@ -4,7 +4,8 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   return (
     <footer className="max-container">
-      <div className="flex justify-between items-start gap-20 max-lg:flex-col">
+      {/* Nike logo and content */}
+      <div className="flex justify-between items-start gap-20 max-lg:flex-col flex-wrap">
         <div className="flex flex-col items-start">
           <a href="/">
             <img
@@ -15,12 +16,13 @@ const Footer = () => {
               className="m-0"
             />
           </a>
-          <p className="info-text max-w-sm mt-10">
+          <p className="info-text max-w-sm mt-10 sm:max-w-sm">
             Get shoes ready for the new term at your nearest Nike store. Find
             Your perfect Size In Store. Get Rewards
           </p>
 
-          <div className="flex items-center gap-5 mt-8 flex-wrap">
+          {/* Social logos */}
+          <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((logo, index) => (
               <a href="/" key={index} className=" bg-white rounded-full p-2">
                 <img
@@ -35,7 +37,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-10 text-white font-montserrat">
+        {/* Product links */}
+        <div className="flex flex-1 flex-wrap justify-between gap-10 text-white font-montserrat">
           {footerLinks.map((link, index) => (
             <div key={index}>
               <h4 className="text-xl mb-3">{link.title}</h4>
@@ -50,8 +53,10 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-row justify-between py-10 info-text">
-        <p className="flex flex-row gap-2 justify-start items-center">
+
+      {/* Copyright section */}
+      <div className="flex justify-between py-10 info-text max-sm:flex-col max-sm:items-center">
+        <p className="flex gap-2 justify-start items-center cursor-pointer">
           <a href="/" className=" color-slate-600">
             <img
               src={copyrightSign}
@@ -63,7 +68,7 @@ const Footer = () => {
           </a>
           Copyright. All rights reserved.
         </p>
-        <p>Terms & Conditions</p>
+        <p className='font-montserrat cursor-pointer' >Terms & Conditions</p>
       </div>
     </footer>
   );
