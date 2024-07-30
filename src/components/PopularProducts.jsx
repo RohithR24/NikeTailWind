@@ -4,7 +4,8 @@ import { star } from "../assets/icons/index";
 
 const PopularProducts = () => {
   return (
-    <section className="flex flex-col">
+    <section id='products' className='max-container max-sm:mt-12'>
+    <div className="flex flex-col justify-start">
       <h2 className="text-4xl font-semibold pb-6">
         Our <span className="text-coral-red"> Popular </span> Products{" "}
       </h2>
@@ -29,6 +30,7 @@ const PopularProducts = () => {
           </div>
         ))}
       </div>
+    </div>
     </section>
   );
 };
