@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const ProductFeatures = () => {
   return (
-    <section className="flex xl:flex-row flex-col w-full justify-center items-center">
-      <div className="w-1/2 font-montserrat">
+    <section className="flex max-lg:flex-col w-full justify-between items-center max-container">
+      <div className="flex flex-1 flex-col font-montserrat">
         <h4 className="text-4xl font-semibold">
           We Provide You{" "}
           <span className=" text-coral-red">
@@ -14,7 +14,7 @@ const ProductFeatures = () => {
           </span>{" "}
           Shoes
         </h4>
-        <p className="mt-16 text-lg text-slate-600 leading-7">
+        <p className="mt-16 lg:max-w-lg text-slate-600 leading-7">
           Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
@@ -26,7 +26,7 @@ const ProductFeatures = () => {
         </div>
       </div>
 
-      <div className="flex justify-center align-center">
+      <div className="flex flex-1 justify-center items-center">
         <img className="object-contain" src={shoe8} />
       </div>
     </section>
