@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 const Subscribe = () => {
   return (
-    <section className="flex lg:flex-row flex-xol justify-between items-center">
+    <section className="flex lg:flex-row flex-col justify-between items-center">
       <div>
         <h4 className="text-4xl font-bold mb-10 font-palanquin">
           Sign Up for <span className="text-coral-red">Updates</span> & <br/>

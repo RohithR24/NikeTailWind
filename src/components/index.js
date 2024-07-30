@@ -10,6 +10,7 @@ import  ServiceCard  from './ServiceCard';
 import Offers from "./Offers";
 import CustomerReview from "./CustomerReview";
 import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 export {
   NavBar,
   Hero,
@@ -22,5 +23,6 @@ export {
   ServiceCard, 
   Offers,
   CustomerReview,
-  Subscribe
+  Subscribe,
+  Footer
 };
